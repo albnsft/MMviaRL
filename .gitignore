@@ -1,0 +1,30 @@
+# Classic ignores
+**/__pycache__
+**/.pytest_cache
+**/.vscode
+**/.ipynb_checkpoints
+**/.idea
+**/.pyc
+**/.DS_Store
+**/.mypy_cache
+.coverage
+
+# Virtual python env
+venv/ 
+
+agents/savings
+
+.env
+
+# Test files
+*.ipynb
+
+# Other files
+private/
+new_logs/
+all_logs/
+logs/
+./models/*
+images/
+best_model/
+.ec2/
